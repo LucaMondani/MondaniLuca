@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(253, 253, 253);
+    height: 100vh;
+}
+
+.profile-picture {
+    height:250px;
+    width:250px;
+    border-radius: 50%; 
+}
+#title {
+    padding-top:96px;
+}
+.circle-blue {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #7FC7D97F;
+}
+.w {
+    width: 100vw;
+}
+.par-me{
+    font-size:20px;
+    padding-top: 20px;
+}
+.dm-serif {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.jost-font {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.name{
+    font-size: 60px;
+}
+.highlighted {
+    color: #0c56d6;
+}
+.color {
+    color: #000;
+    font-weight: 500;
+}
+.flex {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerclass {
+    background-color: rgba(253,253,253,0.9);
+}
+.feature-icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+#featured-3 {
+    margin-top: 2rem;
+}
