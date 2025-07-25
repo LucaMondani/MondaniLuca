@@ -2,21 +2,23 @@ body {
     background-color: rgb(253, 253, 253);
     height: 100vh;
 }
-
+.img-wrapper {
+    width: 250px;        
+    aspect-ratio: 1 / 1; 
+    overflow: hidden;
+    
+    border-radius: 50%;
+}
 .profile-picture {
-    height:250px;
-    width:250px;
-    border-radius: 50%; 
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    object-position: 50% 30%; 
 }
 #title {
     padding-top:96px;
 }
-.circle-blue {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background-color: #7FC7D97F;
-}
+
 .w {
     width: 100vw;
 }
